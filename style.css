@@ -1,0 +1,30 @@
+body{
+background:linear-gradient(teal,green,orange);
+}
+#score{
+text-align: left;
+margin-left: 20px;
+}
+#timer{
+float:right;
+margin-right: 20px;
+}
+p{
+font-size:35px;
+}
+#sketchdrawn{
+color:red;
+}
+canvas{
+border:5px solid white;
+border-radius:20px;
+margin-top:150px;
+box-shadow:5px 5px 5px grey;
+box-shadow: 1px 1px 38px #ffffff;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example 
+{ from {box-shadow: 1px 1px 38px grey;
+} to {box-shadow: 1px 1px 38px white;} }
